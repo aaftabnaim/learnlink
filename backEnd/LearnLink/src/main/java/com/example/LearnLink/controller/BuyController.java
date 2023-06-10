@@ -1,22 +1,22 @@
 package com.example.LearnLink.controller;
 
-import com.example.LearnLink.service.ReservationService;
+import com.example.LearnLink.service.BuyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("reservation")
-public class ReservationController {
+@RequestMapping("Buy")
+public class BuyController {
 
-    private final ReservationService reservationService;
+    private final BuyService BuyService;
 
     @Autowired
-    public ReservationController(ReservationService reservationService) {
-        this.reservationService = reservationService;
+    public BuyController(BuyService BuyService) {
+        this.BuyService = BuyService;
     }
 
     @GetMapping
-    public String getAllReservations() {
+    public String getAllBuys() {
         return null;
     }
 

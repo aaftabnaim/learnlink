@@ -16,7 +16,7 @@ public class SellerController {
     }
 
     @GetMapping
-    public String getAllReservations() {
+    public String getAllBuys() {
         return null;
     }
 

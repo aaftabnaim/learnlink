@@ -14,16 +14,16 @@ public class Book {
     private Long id;
     private String name;
     private String description;
-    private int capacity;
-    private String facilities;
+    private int BarCode;
+    private String author;
     private String image;
 
     public Book(Long id, String name, String description, int capacity, String facilities, String image) {
         this.id = id;
         this.name = name;
         this.description = description;
-        this.capacity = capacity;
-        this.facilities = facilities;
+        this.BarCode = capacity;
+        this.author = facilities;
         this.image = image;
     }
 
@@ -37,7 +37,7 @@ public class Book {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
-                ", capacity=" + capacity +
+                ", capacity=" + BarCode +
                 ", facilities=" + getFacilitiesList() +
                 ", image='" + image + '\'' +
                 '}';
@@ -46,7 +46,7 @@ public class Book {
     public List<String> getFacilitiesList() {
         List<String> list = new ArrayList<>();
 
-        for (String facilities : this.getFacilities().split("\\,")) {
+        for (String facilities : this.getAuthor().split("\\,")) {
             list.add(facilities);
         }
 
@@ -60,14 +60,14 @@ public class Book {
         if (o == null || getClass() != o.getClass())
             return false;
         Book Book = (Book) o;
-        return capacity == Book.capacity && Objects.equals(id, Book.id) && Objects.equals(name, Book.name)
-                && Objects.equals(description, Book.description) && Objects.equals(facilities, Book.facilities)
+        return BarCode == Book.BarCode && Objects.equals(id, Book.id) && Objects.equals(name, Book.name)
+                && Objects.equals(description, Book.description) && Objects.equals(author, Book.author)
                 && Objects.equals(image, Book.image);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, description, capacity, facilities, image);
+        return Objects.hash(id, name, description, BarCode, author, image);
     }
 
     public Long getId() {
@@ -94,20 +94,20 @@ public class Book {
         this.description = description;
     }
 
-    public int getCapacity() {
-        return capacity;
+    public int getBarCode() {
+        return BarCode;
     }
 
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
+    public void setBarCode(int capacity) {
+        this.BarCode = capacity;
     }
 
-    public String getFacilities() {
-        return facilities;
+    public String getAuthor() {
+        return author;
     }
 
-    public void setFacilities(String facilities) {
-        this.facilities = facilities;
+    public void setAuthor(String facilities) {
+        this.author = facilities;
     }
 
     public String getImage() {

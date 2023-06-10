@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c42b129-e5e8-453a-9631-569dbe25d517" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LearnLink/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LearnLink/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnLink/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnLink/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnLink/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnLink/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnLink/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnLink/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnLink/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/LearnLink/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2R1BOaHLR9FCTSdvkqAeyJS7dmW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Education/Academic/Projects/learnlink/backEnd/LearnLink",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c42b129-e5e8-453a-9631-569dbe25d517" name="Changes" comment="" />
+      <created>1686407676210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686407676210</updated>
+      <workItem from="1686407677536" duration="331000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

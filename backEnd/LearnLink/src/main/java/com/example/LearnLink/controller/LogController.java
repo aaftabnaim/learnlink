@@ -2,7 +2,6 @@ package com.example.LearnLink.controller;
 
 import com.example.LearnLink.controller.RequestResponse.LogRequest;
 import com.example.LearnLink.controller.RequestResponse.LogResponse;
-import com.example.LearnLink.models.User;
 import com.example.LearnLink.service.LogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -21,17 +21,17 @@ public class SellerController {
     }
 
     @PostMapping
-    public void addResevation() {
+    public void addSeller() {
 
     }
 
     @PutMapping()
-    public void updateResevation() {
+    public void updateSeller() {
 
     }
 
     @DeleteMapping()
-    public void deleteResevation() {
+    public void deleteSeller() {
 
     }
 }

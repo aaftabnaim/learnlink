@@ -1,18 +1,19 @@
 package com.example.LearnLink.controller;
 
 import com.example.LearnLink.service.BuyService;
+import com.example.LearnLink.service.SellService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("Buy")
-public class BuyController {
+@RequestMapping("sell")
+public class SellController {
 
-    private final BuyService BuyService;
+    private final SellService sellService;
 
     @Autowired
-    public BuyController(BuyService BuyService) {
-        this.BuyService = BuyService;
+    public SellController(SellService sellService) {
+        this.sellService = sellService;
     }
 
     @GetMapping
@@ -21,17 +22,17 @@ public class BuyController {
     }
 
     @PostMapping
-    public void addBuy() {
+    public void addsell() {
 
     }
 
     @PutMapping()
-    public void updateBuy() {
+    public void updatesell() {
 
     }
 
     @DeleteMapping()
-    public void deleteBuy() {
+    public void deletesell() {
 
     }
 

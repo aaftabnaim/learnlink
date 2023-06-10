@@ -38,20 +38,11 @@ public class Book {
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
                 ", capacity=" + BarCode +
-                ", facilities=" + getFacilitiesList() +
+                ", author=" + author +
                 ", image='" + image + '\'' +
                 '}';
     }
 
-    public List<String> getFacilitiesList() {
-        List<String> list = new ArrayList<>();
-
-        for (String facilities : this.getAuthor().split("\\,")) {
-            list.add(facilities);
-        }
-
-        return list;
-    }
 
     @Override
     public boolean equals(Object o) {
